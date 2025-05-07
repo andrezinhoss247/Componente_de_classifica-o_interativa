@@ -1,0 +1,258 @@
+@media screen and (min-width: 0px) and (max-width: 499px) {
+
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    #principal{
+        
+        background-color: hsl(216, 12%, 8%);;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        
+    }
+    #divPrincipal{
+    
+        background-color:  hsl(213, 19%, 18%);
+        display: grid; 
+        place-items: center; /*Centraliza as divs filhas*/
+        width:  300px;
+        height: 350px;
+        border-radius: 25px;
+        justify-items: center;
+        padding: 10px;
+       
+    }
+    #divEstrela{
+        
+        width: 90%;
+        height: 60px;
+        
+        
+        
+        
+    }
+    #divEstrelaC{
+    
+        border-radius: 50%;
+        background-image: url('../images/icon-star.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 30px;
+        height: 30px;
+        background-size: 20px;
+        background-color: hsl(217, 12%, 63%);
+    
+    }
+    
+    #divtexto1{
+        width: 90%;
+        margin-bottom: 10px;
+    }
+    h1{
+    
+        color: white;
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        padding-bottom: 20px;
+        font-size: 20pt;
+    }
+    
+    p{
+        line-height: 1.2;
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 150;
+        font-style: normal;
+        font-size: 10pt;
+        color: hsla(0, 0%, 100%, 0.842);
+        text-align: justify;
+
+    
+    }
+    
+    #divNota{
+    
+        margin-top: 0%;
+        height: 60px;
+        width: 90%;
+        display: flex;
+        gap: 15px;
+    
+        
+    }
+    .bnt{
+    
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: transparent;
+        background-color: hsl(217, 12%, 63%);
+        color: white;
+        font-size: 13pt;
+    }
+    .bnt:hover{
+    
+        cursor: pointer;
+    }
+    
+    
+    
+    #divbnt{
+        width: 90%;
+        border: transparent;
+        margin-bottom: 15px;
+    
+    
+    }
+    #bntEnviar{
+        width: 100%; 
+        height: 40px;
+        border-radius: 25px 25px 25px 25px;
+        background-color: hsl(25, 97%, 53%);
+        font-size: 13pt;
+        border: transparent;
+    
+    }
+    #bntEnviar:hover{
+    
+        cursor: pointer;
+    
+    }
+    
+} 
+@media screen and (min-width: 500px){
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    #principal{
+        
+        background-color: hsl(216, 12%, 8%);;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        
+    }
+    #divPrincipal{
+    
+        background-color:  hsl(213, 19%, 18%);
+        display: grid; 
+        place-items: center; /*Centraliza as divs filhas*/
+        width:  450px;
+        height: 450px;
+        border-radius: 25px;
+        justify-items: center;
+        padding: 10px;
+       
+    }
+    #divEstrela{
+        
+        width: 90%;
+        height: 60px;
+        
+        
+        
+        
+    }
+    #divEstrelaC{
+    
+        border-radius: 50%;
+        background-image: url('../images/icon-star.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 60px;
+        height: 60px;
+        background-size: 27px;
+        background-color: hsl(217, 12%, 63%);
+    
+    }
+    
+    #divtexto1{
+        width: 90%;
+    }
+    h1{
+    
+        color: white;
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        padding-bottom: 20px;
+    }
+    
+    p{
+        line-height: 1.2;
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 15pt;
+        color: hsla(0, 0%, 100%, 0.842);
+        text-align: justify;
+    
+    }
+    
+    #divNota{
+    
+        margin-top: 0%;
+        height: 60px;
+        width: 90%;
+        display: flex;
+        gap: 25px;
+    
+        
+    }
+    .bnt{
+    
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        border: transparent;
+        background-color: hsl(217, 12%, 63%);
+        color: white;
+        font-size: 15pt;
+    }
+    .bnt:hover{
+    
+        cursor: pointer;
+    }
+    
+    
+    
+    #divbnt{
+        width: 90%;
+        border: transparent;
+    
+    
+    }
+    #bntEnviar{
+        width: 100%; 
+        height: 50px;
+        border-radius: 25px 25px 25px 25px;
+        background-color: hsl(25, 97%, 53%);
+        font-size: 15pt;
+        border: transparent;
+    
+    }
+    #bntEnviar:hover{
+    
+        cursor: pointer;
+    
+    }
+
+    
+}

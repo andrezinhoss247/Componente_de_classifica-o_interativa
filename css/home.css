@@ -253,6 +253,12 @@
         cursor: pointer;
     
     }
+    .nota{ 
+        background-color: white !important;
+        color: rgb(17, 17, 16);
+    }
 
     
 }
+
+

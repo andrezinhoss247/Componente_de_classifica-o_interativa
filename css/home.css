@@ -89,7 +89,7 @@
     
         
     }
-    .bnt{
+    .btn{
     
         width: 40px;
         height: 40px;
@@ -99,21 +99,21 @@
         color: white;
         font-size: 13pt;
     }
-    .bnt:hover{
+    .btn:hover{
     
         cursor: pointer;
     }
     
     
     
-    #divbnt{
+    #divbtn{
         width: 90%;
         border: transparent;
         margin-bottom: 15px;
     
     
     }
-    #bntEnviar{
+    #btnEnviar{
         width: 100%; 
         height: 40px;
         border-radius: 25px 25px 25px 25px;
@@ -122,11 +122,7 @@
         border: transparent;
     
     }
-    #bntEnviar:hover{
-    
-        cursor: pointer;
-    
-    }
+
     
 } 
 @media screen and (min-width: 500px){
@@ -216,7 +212,7 @@
     
         
     }
-    .bnt{
+    .btn{
     
         width: 60px;
         height: 60px;
@@ -226,20 +222,14 @@
         color: white;
         font-size: 15pt;
     }
-    .bnt:hover{
-    
-        cursor: pointer;
-    }
-    
-    
-    
-    #divbnt{
+   
+    #divbtn{
         width: 90%;
         border: transparent;
     
     
     }
-    #bntEnviar{
+    #btnEnviar{
         width: 100%; 
         height: 50px;
         border-radius: 25px 25px 25px 25px;
@@ -248,17 +238,32 @@
         border: transparent;
     
     }
-    #bntEnviar:hover{
+   
+   
     
-        cursor: pointer;
-    
-    }
-    .nota{ 
-        background-color: white !important;
-        color: rgb(17, 17, 16);
-    }
 
     
 }
 
+@media screen {
+     
+    .btn:hover{
+    
+        cursor: pointer;
+        background-color: hsl(25, 97%, 53%);
+    }
+     #btnEnviar:hover{
+    
+        cursor: pointer;
+        background-color: white;
+    
+    }
 
+    .clicar{
+
+        background-color: white;
+        color: black
+    }
+
+    
+}

@@ -24,7 +24,7 @@ for (const i of btn) {
 }
 btnEnviar.addEventListener("click", function () {
 
-    window.location.href = "../html/obrigado.html"
+    window.location.href = "./html/obrigado.html"
 })
 
 

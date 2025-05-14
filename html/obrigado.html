@@ -16,6 +16,7 @@
             </div>
 
             <div id="suaNota" class="item">
+                
             </div>
 
             <div id="texto" class="item"> 
@@ -26,9 +27,17 @@
         </div>
 
 
-
+        
 
     </main>
+    <script >
+
+        const suaNota = window.document.getElementById('suaNota')
+        const res = sessionStorage.getItem('resultado')
+        suaNota.innerHTML = `Você selecionou ${res} de 5`
+
+    </script>
+
     
 </body>
 </html>

@@ -40,10 +40,15 @@
         
     }
     #suaNota{
-        width: 60%;
-        height: 30px;
+        
         border-radius: 25px;
         background-color: hsl(217, 12%, 63%);
+        color: hsl(25, 85%, 37%);
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        padding: 5px 10px 5px 10px;
     }
     
     .item{
@@ -134,10 +139,15 @@
         
     }
     #suaNota{
-        width: 50%;
-        height: 40px;
         border-radius: 25px;
         background-color: hsl(217, 12%, 63%);
+        color: hsl(25, 85%, 37%);
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        padding: 5px 10px 5px 10px;
+
     }
     
     .item{
